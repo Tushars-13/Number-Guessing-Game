@@ -34,7 +34,7 @@ def game(no_to_guess, chances):
             type_out("Your guess is too Low! Please try again.")
         elif counter>=chances and user_guess!=answer:
             type_out("Oops!! You ran out of chances:( ")
-            type_out("Game Over! You Lose.")
+            type_out("Game Over! Better Luck next time.")
 
 
 
